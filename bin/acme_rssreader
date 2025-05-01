@@ -1,0 +1,16 @@
+#!/bin/sh
+
+for url in $(cat ~/bin/URLS)
+do
+  temp=$(mktemp)
+	curl -s $url > $temp
+	jq -r '.title' $temp
+	echo
+	jq -r ' .items | .[] | [.title, .url] | join("\t") ' $temp | sed 11q
+	echo =============================================================================
+	echo
+	rm $temp
+done | 9p write acme/new/body
+
+acme_new Feeds
+

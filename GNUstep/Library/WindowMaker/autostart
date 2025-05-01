@@ -1,0 +1,40 @@
+#!/bin/sh
+#
+# Place applications to be executed when WindowMaker is started here.
+# This should only be used for non-X applications or applications that
+# do not support session management. Other applications should be restarted
+# by the WindowMaker session restoring mechanism. For that, you should
+# either set SaveSessionOnExit=YES or select "Save Session" in the Workspace
+# submenu of the root menu when all applications you want started are
+# running.
+#
+# WindowMaker will wait until this script finishes, so if you run any
+# commands that take long to execute (like a xterm), put a ``&'' in the
+# end of the command line.
+#
+# This file must be executable.
+#
+#setxkbmap "us(dvp), am" -option "esperanto:dvorak,grp:lalt_lshift_toggle,lv3:win_switch"
+#setxkbmap -model ppkb "us(dvp), am" -option "grp:lalt_shift_toggle"
+setxkbmap -model ppkb "us(dvp), am" -option "esperanto:dvorak,grp:lalt_lshift_toggle,lv3:win_switch"
+#setxkbmap "us(dvp), am," -option "grp:alt_shift_toggle"
+#setxkbmap "us(dvp), am, ge, ru(phonetic)" -option "grp:alt_shift_toggle"
+#xset s off -dpms
+#xset m 20/10 4
+
+# Blank screen after 120 seconds of inactivity
+xset s 120            # screen saver (blank) timeout in seconds
+xset s blank          # set blanking mode (not random/pattern)
+xset +dpms            # enable DPMS (Display Power Management Signaling)
+xset dpms 120 180 300 # standby, suspend, off times (in seconds)
+
+
+#wmsetbg -a /home/inky/wlp/gf.jpg
+#wmsetbg /home/inky/inst/wallpapers/gentoo-cow-gdm-remake-1440x900.png
+#wmsetbg /home/inky/env/wallpapers/gf_1440x900.png
+#wmsetbg /home/inky/gf_.png
+xsetroot -cursor_name right_ptr
+xrdb ~/.Xresources
+#/usr/lib64/misc/xscreensaver/atlantis -root
+#fix for function keys
+#sudo su  - root -c "/bin/echo 2 > /sys/module/hid_apple/parameters/fnmode"

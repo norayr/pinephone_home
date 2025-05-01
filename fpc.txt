@@ -1,0 +1,48 @@
+Ur -Ur -O2 -n -Fi../inc -Fi../aarch64 -Fi../unix -Fiaarch64 -FE. -FU/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux -daarch64 -dRELEASE ../objpas/types.pp
+/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/compiler/ppca64 -Ur -Ur -O2 -n -Fi../inc -Fi../aarch64 -Fi../unix -Fiaarch64 -FE. -FU/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux -daarch64 -dRELEASE ../objpas/fpwidestring.pp
+/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/compiler/ppca64 -Ur -Ur -O2 -n -Fi../inc -Fi../aarch64 -Fi../unix -Fiaarch64 -FE. -FU/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux -daarch64 -dRELEASE ../unix/cthreads.pp
+/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/compiler/ppca64 -Ur -Ur -O2 -n -Fi../inc -Fi../aarch64 -Fi../unix -Fiaarch64 -FE. -FU/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux -daarch64 -dRELEASE ../objpas/fgl.pp
+/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/compiler/ppca64 -Ur -Ur -O2 -n -Fi../inc -Fi../aarch64 -Fi../unix -Fiaarch64 -FE. -FU/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux -daarch64 -dRELEASE ../unix/cwstring.pp
+/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/compiler/ppca64 -Ur -Ur -O2 -n -Fi../inc -Fi../aarch64 -Fi../unix -Fiaarch64 -FE. -FU/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux -daarch64 -dRELEASE ../inc/macpas.pp 
+/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/compiler/ppca64 -Ur -Ur -O2 -n -Fi../inc -Fi../aarch64 -Fi../unix -Fiaarch64 -FE. -FU/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux -daarch64 -dRELEASE ../inc/extpas.pp
+/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/compiler/ppca64 -Ur -Ur -O2 -n -Fi../inc -Fi../aarch64 -Fi../unix -Fiaarch64 -FE. -FU/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux -daarch64 -dRELEASE ../inc/lnfodwrf.pp
+/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/compiler/ppca64 -Ur -Ur -O2 -n -Fi../inc -Fi../aarch64 -Fi../unix -Fiaarch64 -FE. -FU/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux -daarch64 -dRELEASE -Fi../objpas/classes ../unix/classes.pp
+tthread.inc(196,19) Warning: Symbol "Resume" is deprecated
+tthread.inc(213,5) Warning: Symbol "Suspend" is deprecated
+tthread.inc(214,13) Warning: Symbol "Resume" is deprecated
+classes.inc(269,9) Warning: Symbol "Resume" is deprecated
+classes.inc(293,11) Warning: Symbol "Resume" is deprecated
+classes.inc(739,13) Warning: Symbol "GetTickCount" is deprecated: "Use GetTickCount64 instead"
+reader.inc(1179,18) Warning: function result variable of a managed type does not seem to be initialized
+/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/compiler/ppca64 -Ur -Ur -O2 -n -Fi../inc -Fi../aarch64 -Fi../unix -Fiaarch64 -FE. -FU/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux -daarch64 -dRELEASE fpcylix.pp
+make[2]: Leaving directory '/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/linux'
+make[1]: Leaving directory '/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl'
+make -C packages all
+make[1]: Entering directory '/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/packages'
+make -C fpmkunit bootstrap
+make[2]: Entering directory '/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/packages/fpmkunit'
+/bin/mkdir -p units_bs/aarch64-linux
+/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/compiler/ppca64 src/fpmkunit.pp -n -Fu/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux -FUunits_bs/aarch64-linux -Fu../paszlib/src -Fu../hash/src -Fi../paszlib/src  -Fi../fcl-process/src/unix -Fu../fcl-process/src -Fi../fcl-process/src/linux -Fi../fcl-process/src/dummy -Fu../libtar/src 
+make[2]: Leaving directory '/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/packages/fpmkunit'
+/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/compiler/ppca64 fpmake.pp -n -Fu/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/packages/fpmkunit/units_bs/aarch64-linux -Fu/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux  
+/usr/bin/ld: /home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/rtl/units/aarch64-linux/cprt0.o: in function `_start':
+(.text+0x54): undefined reference to `__libc_csu_init'
+/usr/bin/ld: (.text+0x58): undefined reference to `__libc_csu_init'
+/usr/bin/ld: (.text+0x5c): undefined reference to `__libc_csu_fini'
+/usr/bin/ld: (.text+0x60): undefined reference to `__libc_csu_fini'
+fpmake.pp(60) Error: Error while linking
+fpmake.pp(60) Fatal: There were 1 errors compiling module, stopping
+Fatal: Compilation aborted
+make[1]: *** [Makefile:1719: fpmake] Error 1
+make[1]: Leaving directory '/home/gentoo/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc/packages'
+make: *** [Makefile:2678: packages_all] Error 2
+ * ERROR: dev-lang/fpc-3.2.2::gentoo failed (compile phase):
+ *   emake failed
+ * 
+ * If you need support, post the output of `emerge --info '=dev-lang/fpc-3.2.2::gentoo'`,
+ * the complete build log and the output of `emerge -pqv '=dev-lang/fpc-3.2.2::gentoo'`.
+ * The complete build log is located at '/var/log/portage/dev-lang:fpc-3.2.2:20241004-084327.log'.
+ * For convenience, a symlink to the build log is located at '/var/tmp/portage/dev-lang/fpc-3.2.2/temp/build.log'.
+ * The ebuild environment file is located at '/var/tmp/portage/dev-lang/fpc-3.2.2/temp/environment'.
+ * Working directory: '/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc'
+ * S: '/var/tmp/portage/dev-lang/fpc-3.2.2/work/fpcbuild-3.2.2/fpcsrc'

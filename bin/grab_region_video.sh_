@@ -1,0 +1,1 @@
+ffmpeg -f x11grab -framerate 25 -video_size 1200x900 -i :0.0+0,100 -b:v 11M /home/tmp/out.mpg

@@ -1,0 +1,78 @@
+{
+  FrameBorderColor = "#000000";
+  FTitleColor = "#ffffff";
+  MenuDisabledColor = "#7f7f7f";
+  PixmapPath = (
+    "/home/noch/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/noch/GNUstep/Library/WindowMaker/Backgrounds",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/WindowMaker/Backgrounds",
+    "/usr/include/X11/pixmaps",
+    "/usr/local/share/pixmaps",
+    "/usr/share/pixmaps"
+  );
+  HotCornerEdge = 2;
+  IconTitleBack = "#000000";
+  ClipTitleFont = "Arian Grqi:slant=0:weight=80:width=100:pixelsize=10";
+  HideKey = None;
+  IconTitleFont = "Arian Grqi:slant=0:weight=80:width=100:pixelsize=9";
+  LargeDisplayFont = "Arian Grqi:slant=0:weight=80:width=100:pixelsize=24";
+  CenterKey = None;
+  IconTitleColor = "#ffffff";
+  MenuTitleColor = "#ffffff";
+  HotCorners = NO;
+  MenuTitleFont = "Arian Grqi:slant=0:weight=80:width=100:pixelsize=12";
+  EnableWorkspacePager = YES;
+  WindowRelaunchKey = "Control+Mod1+D";
+  MoveTo6to12Head = None;
+  WorkspaceBack = (solid, "#333340");
+  HighlightTextColor = "#000000";
+  EnforceIconMargin = NO;
+  ClipTitleColor = "#000000";
+  MoveTo12to6Head = None;
+  HotCornerActions = (None, None, None, None);
+  FrameFocusedBorderColor = "#000000";
+  WindowTitleFont = "Arian Grqi:slant=0:weight=80:width=100:pixelsize=12";
+  Workspace8Key = "Control+parenright";
+  RunKey = "Control+Mod1+R";
+  Workspace9Key = "Control+Shift+plus";
+  RootMenuKey = "Control+Mod1+C";
+  Workspace4Key = "Control+braceright";
+  Workspace5Key = "Control+parenleft";
+  Workspace6Key = "Control+equal";
+  Workspace7Key = "Control+asterisk";
+  OpenTransientOnOwnerWorkspace = YES;
+  Workspace1Key = "Control+ampersand";
+  Workspace2Key = "Control+bracketleft";
+  Workspace3Key = "Control+braceleft";
+  IgnoreGtkHints = YES;
+  FrameSelectedBorderColor = "#ffffff";
+  WorkspaceMapKey = "Mod1+Mod5+space";
+  ToggleKbdModeKey = None;
+  WindowMenuKey = None;
+  RaiseAppIconsWhenBouncing = YES;
+  HotCornerDelay = 250;
+  AutoFocus = NO;
+  CycleWorkspaces = YES;
+  SingleClickLaunch = YES;
+  MenuTextColor = "#000000";
+  AntialiasedText = YES;
+  WindowListKey = "Control+Mod1+L";
+  MenuTextFont = "Arian Grqi:slant=0:weight=80:width=100:pixelsize=12";
+  DisableMiniwindows = YES;
+  HighlightColor = "#ffffff";
+  Workspace10Key = "Control+bracketright";
+  CClipTitleColor = "#616161";
+  IconPath = (
+    "/home/noch/GNUstep/Library/Icons",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/include/X11/pixmaps",
+    "/home/noch/GNUstep/Library/WindowMaker/Pixmaps",
+    "/usr/share/icons",
+    "/usr/local/share/pixmaps",
+    "/usr/share/pixmaps"
+  );
+  UTitleColor = "#000000";
+  PTitleColor = "#ffffff";
+}

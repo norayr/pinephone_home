@@ -1,0 +1,6 @@
+station UDYZ
+metric
+tempc
+radar-uri http://weather.noaa.gov/radar/mosaic/DS.p19r0/ar.eu.conus.gif
+location 40.1472N 44.3958E
+animate
